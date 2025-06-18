@@ -12,4 +12,6 @@ The infinite dimensional quantum affine algebra $U_q\tilde{\mathfrak{g}}$ at lev
 
 ## q-characters
 
-The characters of representations of quantum affine algebras are called $q$-characters. Essentially, they are Laurent polynomials in variables $Y_{i,a}$, where $i\in \{1,2,\dots,r\}$ and $a\in\mathbb{C}^\times$. For simplicity we write $Y_{i,q^k}$ as $\mathrm{i}_k$. Given a dominant monomial $m$, the Frenkel-Mukhin algorithm computes the $q$-character of the representation of $U_q\tilde{\mathfrak{g}}$ having highest weight $m$. 
+The characters of representations of quantum affine algebras are called $q$-characters. Essentially, they are polynomials in variables $Y_{i,a}^{\pm 1}$, where $i\in \{1,2,\dots,r\}$ and $a\in\mathbb{C}^\times$. For simplicity we write $Y_{i,q^k}$ as $\mathrm{i}_k$.
+
+A monomial $m$ is called dominant if does not contain variables $Y_{i,a}^{-1}$, that is, only positive powers of $Y_{i,a}$ are present in $m$. Given a dominant monomial $m$, the Frenkel-Mukhin algorithm computes the $q$-character of the representation of $U_q\tilde{\mathfrak{g}}$ having highest weight $m$. 
